@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Swiftcart</title>
 </head>
 <body>
+    <!-- NAVBAR Start -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
     
+            <h1 class="text-2xl font-bold text-indigo-600">SwiftCart</h1>
+    
+            <nav class="hidden md:flex gap-8 text-gray-600 font-medium">
+                <a href="#" class="text-indigo-600">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+    
+            <div class="flex items-center gap-4">
+                cart
+                <button class="md:hidden text-2xl">hamburger </button>
+            </div>
+    
+        </div>
+    </header>
+
+    <!-- NAVBAR End -->
 </body>
 </html>
