@@ -106,7 +106,11 @@ function showProducts(products){
     <p class="text-indigo-600 font-bold mt-2">$${p.price}</p>
 
     <div class="flex gap-3 mt-4">
-        <button onclick="showDetails(${p.id})" class="flex-1 border rounded-lg py-2 hover:bg-indigo-50 hiver:border-indigo-600 transition-colors duration-200">Details</button>
+        <button onclick="showDetails(${p.id})" class="flex-1 border rounded-lg py-2 
+               hover:bg-indigo-50 hover:border-indigo-600 
+               transition-colors duration-200flex-1 border rounded-lg py-2 
+               hover:bg-indigo-50 hover:border-indigo-600 
+               transition-colors duration-200">Details</button>
         <button class="flex-1 bg-indigo-600 text-white rounded-lg py-2">
             Add To Cart
         </button>
@@ -209,9 +213,11 @@ fetch("https://fakestoreapi.com/products")
                 <p class="text-indigo-600 font-bold mt-2">$${p.price}</p>
 
                 <div class="flex gap-3 mt-4">
-                    <button onclick="showDetails(${p.id})" class="flex-1 border rounded-lg py-2">Details</button>
-                    <button class="flex-1 bg-indigo-600 text-white rounded-lg py-2">
-                        Add To Cart
+                    <button onclick="showDetails(${p.id})" class="flex-1 border rounded-lg py-2 
+               hover:bg-indigo-50 hover:border-indigo-600 
+               transition-colors duration-200">Details</button>
+                    <button class="flex-1 bg-indigo-600 text-white rounded-lg py-2 hover:bg-indigo-700 transition-colors duration-200">
+                    Add To Cart
                     </button>
                 </div>
             `;
